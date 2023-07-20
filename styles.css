@@ -38,7 +38,7 @@ h1{
 }
 
 .char-color{
-    color:  #ed8294;
+    color:  #FF42A5;
 
 }
 .logo-text{
@@ -54,6 +54,14 @@ h1{
     list-style: none;
 }
 
+.fa-youtube{
+    color: red;
+}
+.fa-tiktok{
+    color: rgb(28, 4, 49);
+    /* border: 2px solid rgb(69, 13, 22); */
+}
+
 .icons{
     padding: 10px 25px;
     background: #e2dede;
@@ -63,10 +71,13 @@ h1{
     gap: 5px;
     align-items: center;
 }
-
-.icons img{
-    width: 2%;
-    height: 2%;
+.center li{
+    list-style: none;
+}
+.icons i{
+    /* width: 2%;
+    height: 2%; */
+    margin-left: 10px;
 }
 
 /* Hero section styles */
