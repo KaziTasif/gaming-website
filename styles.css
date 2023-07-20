@@ -334,5 +334,96 @@ h1{
     h1{
         font-size: 25px;
     }
+
+    /* header section */
+   .header__section{
+    flex-direction: column;
+    margin: 20px;
+    padding: 50px 50px;
+
+   }
+   .logo{
+    margin-bottom: 30px;
+   }
+    .menu-items{
+        text-align: center;  
+     flex-direction: column;
+
 }
+
+/* Hero Section */
+.hero-section{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+    
+}
+.hero-text{
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+    flex-direction: column;
+
+
+  }
+  .center{
+    text-align: center;
+    flex-direction: column;
+    margin: 20%;
+  }
+
+  .hero-image img{
+    width: 80%;
+    margin: 0 auto;
+  }
+  .hero-image{
+    justify-content: center;
+    /* width: 100%; */
+    padding: 30px;
+
+    flex-direction: column;
+
+  }
+
+  /* gamer section */
+
+ .gamer-section{
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px 30px;
+ }
+
+.gamer-text{
+    text-align: center;
+    margin: 10px;
+}
+
+.image-size{
+   width: 100%;
+}
+
+/* play-instantly-section */
+
+.play-instantly-section{
+    flex-direction: column;
+    text-align: center;
+    padding: 10px 10px;
+}
+.play-instantly, .common-font{
+    text-align: center;
+    padding: 20px 45px; 
+}
+
+.rounded-circle-section{
+    flex-direction: column;
+    /* display: grid;
+    grid-template-columns: 1fr; */
+}
+  
+
+
+}
+  
+
+
 
